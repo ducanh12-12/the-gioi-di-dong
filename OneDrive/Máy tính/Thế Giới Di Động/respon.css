@@ -1,0 +1,648 @@
+@media only screen
+  and (max-device-width : 767px)
+{
+    .container{
+        max-width: 100%;
+        margin:auto;
+    }
+    .container-fluid{
+        background-image: none;
+        background-color: white;
+        width: 100%;
+    }
+    header{
+        max-width: 100%;
+        margin:auto;
+    }
+    .postpaid{
+        display: none;
+    }
+    .header-option{
+        display: none;
+    }
+    .header-cart-text{
+        display: none;
+    }
+    .devices{
+        display: none;
+    }
+    .header-address{
+        display: none;
+    }
+    .header-cart{
+        display: none;
+    }
+    .header-cart-res{
+        display: block;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .thumnail{
+        margin:0 auto;
+    }
+    .header-find-input{
+        width: 250px;
+    }
+    .thumnail-sale{
+        display: none;
+    }
+    .slide{
+        max-width: 100%;
+        margin: auto;
+        border:0;
+    }
+    .slide-img img{
+        width: 100%;
+    }
+    .thumail-footer{
+        display: none;
+    }
+    .sale-res{
+        display: none;
+    }
+    .thumnail-res{
+        display: block;
+    }
+    .nav-list{
+        display: block;
+    }
+    .products-main{
+        width: 620px;
+    }
+    .background-sale{
+        width: 620px;
+        height: auto;
+    }
+    .products-main .products .product {
+        width: 215px;
+        height: 290px;
+        padding: 10px 5px;
+        font-size: 0.5rem;
+    }
+    .product-pay{
+        display: none;
+    }
+    .img-phone{
+        width: 110px;
+        margin: 0 auto;
+    }
+    .product-sale{
+        display: block;
+    height: 23px;
+    margin-top: 10px;
+    overflow:inherit;
+    margin-left: 0;
+    }
+    .vote{
+        display: none;
+    }
+    .product-name{
+        font-size: 1.2rem;
+        margin-left: 0;
+        width: 170px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .price-old{
+        font-size: 1.2rem;
+        margin: 5px 0;
+    }
+    .price-sale{
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+    .products-sale-thumnail{
+        flex-wrap: wrap;
+        height: 68px;
+        background:  transparent url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/noel/Tagline/TGDD/tagline_mobile.png?v=1) no-repeat center top;
+        padding-top: 10px;
+    }
+    .products-sale-thumnail h3{
+        font-size: 1.4rem;
+    }
+    .product-sale-thumnail-phone span{
+        padding: 0 6px;
+        margin-bottom: 5px;
+    }
+    .product-sale-thumnail-phone span:nth-child(1){
+        margin-left: 10px;
+    }
+    .laptop-res {
+        position: relative;
+        overflow:hidden
+    }
+    .laptop-res h3{
+        transform: translateY(-20px);
+    }
+    .laptop-res div{
+        position: absolute;
+        width: 1000px;
+        bottom: 3px;
+        overflow-x: auto;
+    }
+    .airpod-thumnail-res{
+        position: relative;
+    }
+    .airpod-thumnail-res h3{
+        margin-bottom: 42px;
+    }
+    .product-airpod-top{
+        width: 213.333px;
+        height: 246px;
+    }
+    .product-airpod-top .product-name{
+        font-size: 1.3rem;
+        color: #333;
+        font-weight: 500;
+    }
+    .product-airpod-top .price-old{
+        font-size: 1.4rem;
+    }
+    .product-airpod-top .price-sale{
+        font-size: 1.4rem;
+    }
+    .products-sale-airpod{
+        height: 494.5px;
+        overflow:hidden;
+    }
+    .vote-airpod{
+        display: none;
+    }
+    .airpod-res{
+        position: absolute;
+        width: 1000px;
+        bottom: 3px;
+        overflow-x: auto;
+    }
+    .laptop-res span{
+        width: auto;
+    }
+    .products-sale{
+        width: 100%;
+    }
+    .product-sale-2 {
+        display: none;
+    }
+    .product-bottom{
+        width: 213.3333333333px;
+        padding: 10px;
+    }
+    .product-bottom:nth-child(6){
+        display: block;
+    }
+    .product-laptop{
+        width: 213.33px;
+        height: 291px;
+    }
+    .products-sale-laptop-main {
+        height: 582px;
+    }
+    .product-laptop .price-sale{
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    .product-laptop .product-name{
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #333;
+    }
+    .products-sale-laptop{
+        width: auto;
+    }
+    .watch-left{
+        display: none;
+    }
+    .watch-right{
+        width: 100%;
+    }
+    .sale-watchs{
+        width: 100%;
+    }
+    .watch-right-header{
+        background-image: url(./img/thumnail-watch.png);
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    .watch-right-header a{
+        display: none;
+    }
+    .watch-right-header ul{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .product-main{
+        display: flex;
+        width: 100%;
+        height: 570px;
+    }
+    .product-watch{
+        height: 510px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .slide-move-watch-next{
+        display: none;
+    }
+    .slide-move-watch-back{
+        display: none;
+    }
+    .product-watch .product-airpod {
+        width: 213px;
+    }
+    .watch-right-header ul li{
+        height: 45px;
+        font-size: 1.2rem;
+        width: 25%;
+        padding:5px;
+        align-items: center;
+        border:1px solid rgba(255,255,255,.8);
+        /* color:  rgba(255,255,255,.8); */
+        margin:0 10px;
+    }
+    .band-main h2{
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .band-main h3{
+        margin-top: 40px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .band img{
+        width: 160px;
+    }
+    .band{
+        position: relative;
+    }
+    .new-band img{
+        width: 160px;
+    }
+    .band::after{
+        content: "";
+        width: 90%;
+        height: 4px;
+        position: absolute;
+        bottom: -30px;
+        background-color: rgb(233, 232, 232);
+        left: 0;
+    }
+    .footer-res{
+        display: none;
+    }
+    .footer{
+        height: 1000px;
+        flex-direction: column;
+        width: 100%; 
+        margin:0 auto;
+        margin-bottom: 200px;
+    }
+    .hotline{
+        margin: 0;
+    }
+    /* .footer img{
+        width: 200px;
+        height: auto;
+    } */
+    .footer ul li {
+        border-bottom: 1px solid rgba(223, 221, 221, 0.8) ;
+        padding-bottom: 5px;
+    }
+    .footer-img-res{
+        display: block;
+        width: 100%;
+    }
+    .footer-img{
+        display: none;
+    }
+    
+}
+@media only screen
+  and (min-device-width : 767px)
+  and (max-device-width : 1024px)
+{
+    .container{
+        max-width: 100%;
+        margin:auto;
+    }
+    .container-fluid{
+        background-image: none;
+        background-color: white;
+    }
+    header{
+        max-width: 100%;
+        margin:auto;
+    }
+    .postpaid{
+        display: none;
+    }
+    .header-option{
+        display: none;
+    }
+    .header-cart-text{
+        display: none;
+    }
+    .devices{
+        display: none;
+    }
+    .header-address{
+        display: none;
+    }
+    .header-cart{
+        display: none;
+    }
+    .header-cart-res{
+        display: block;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .thumnail{
+        margin:0 auto;
+    }
+    .header-find-input{
+        width: 250px;
+    }
+    .thumnail-sale{
+        display: none;
+    }
+    .slide{
+        max-width: 100%;
+        margin: auto;
+        border:0;
+    }
+    .slide-img img{
+        width: 100%;
+    }
+    .thumail-footer{
+        display: none;
+    }
+    .sale-res{
+        display: none;
+    }
+    .thumnail-res{
+        display: block;
+    }
+    .nav-list{
+        display: block;
+    }
+    .products-main{
+        width: 620px;
+    }
+    .background-sale{
+        width: 620px;
+        height: auto;
+    }
+    .products-main .products .product {
+        width: 215px;
+        height: 290px;
+        padding: 10px 5px;
+        font-size: 0.5rem;
+    }
+    .product-pay{
+        display: none;
+    }
+    .img-phone{
+        width: 110px;
+        margin: 0 auto;
+    }
+    .product-sale{
+        display: block;
+    height: 23px;
+    margin-top: 10px;
+    overflow:inherit;
+    margin-left: 0;
+    }
+    .vote{
+        display: none;
+    }
+    .product-name{
+        font-size: 1.2rem;
+        margin-left: 0;
+        width: 170px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .price-old{
+        font-size: 1.2rem;
+        margin: 5px 0;
+    }
+    .price-sale{
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+    .products-sale-thumnail{
+        flex-wrap: wrap;
+        height: 68px;
+        background:  transparent url(//cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/noel/Tagline/TGDD/tagline_mobile.png?v=1) no-repeat center top;
+        padding-top: 10px;
+    }
+    .products-sale-thumnail h3{
+        font-size: 1.4rem;
+    }
+    .product-sale-thumnail-phone span{
+        padding: 0 6px;
+        margin-bottom: 5px;
+    }
+    .product-sale-thumnail-phone span:nth-child(1){
+        margin-left: 10px;
+    }
+    .laptop-res {
+        position: relative;
+        overflow:hidden
+    }
+    .laptop-res h3{
+        transform: translateY(-20px);
+    }
+    .laptop-res div{
+        position: absolute;
+        width: 1000px;
+        bottom: 3px;
+        overflow-x: auto;
+    }
+    .airpod-thumnail-res{
+        position: relative;
+    }
+    .airpod-thumnail-res h3{
+        margin-bottom: 42px;
+    }
+    .product-airpod-top{
+        width: 213.333px;
+        height: 246px;
+    }
+    .product-airpod-top .product-name{
+        font-size: 1.3rem;
+        color: #333;
+        font-weight: 500;
+    }
+    .product-airpod-top .price-old{
+        font-size: 1.4rem;
+    }
+    .product-airpod-top .price-sale{
+        font-size: 1.4rem;
+    }
+    .products-sale-airpod{
+        height: 494.5px;
+        overflow:hidden;
+    }
+    .vote-airpod{
+        display: none;
+    }
+    .airpod-res{
+        position: absolute;
+        width: 1000px;
+        bottom: 3px;
+        overflow-x: auto;
+    }
+    .laptop-res span{
+        width: auto;
+    }
+    .products-sale{
+        width: 100%;
+    }
+    .product-sale-2 {
+        display: none;
+    }
+    .product-bottom{
+        width: 213.3333333333px;
+        padding: 10px;
+    }
+    .product-bottom:nth-child(6){
+        display: block;
+    }
+    .product-laptop{
+        width: 213.33px;
+        height: 291px;
+    }
+    .products-sale-laptop-main {
+        height: 582px;
+    }
+    .product-laptop .price-sale{
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    .product-laptop .product-name{
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #333;
+    }
+    .products-sale-laptop{
+        width: auto;
+    }
+    .watch-left{
+        display: none;
+    }
+    .watch-right{
+        width: 100%;
+    }
+    .sale-watchs{
+        width: 100%;
+    }
+    .watch-right-header{
+        background-image: url(./img/thumnail-watch.png);
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    .watch-right-header a{
+        display: none;
+    }
+    .watch-right-header ul{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .product-main{
+        display: flex;
+        width: 100%;
+        height: 570px;
+    }
+    .product-watch{
+        height: 510px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .slide-move-watch-next{
+        display: none;
+    }
+    .slide-move-watch-back{
+        display: none;
+    }
+    .product-watch .product-airpod {
+        width: 213px;
+    }
+    .watch-right-header ul li{
+        height: 45px;
+        font-size: 1.2rem;
+        width: 25%;
+        padding:5px;
+        align-items: center;
+        border:1px solid rgba(255,255,255,.8);
+        /* color:  rgba(255,255,255,.8); */
+        margin:0 10px;
+    }
+    .band-main h2{
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .band-main h3{
+        margin-top: 40px;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .band img{
+        width: 160px;
+    }
+    .band{
+        position: relative;
+    }
+    .new-band img{
+        width: 160px;
+    }
+    .band::after{
+        content: "";
+        width: 90%;
+        height: 4px;
+        position: absolute;
+        bottom: -30px;
+        background-color: rgb(233, 232, 232);
+        left: 0;
+    }
+    .footer-res{
+        display: none;
+    }
+    .footer{
+        height: 1000px;
+        flex-direction: column;
+        width: 100%; 
+        margin:0 auto;
+        margin-bottom: 200px;
+    }
+    .hotline{
+        margin: 0;
+    }
+    /* .footer img{
+        width: 200px;
+        height: auto;
+    } */
+    .footer ul li {
+        border-bottom: 1px solid rgba(223, 221, 221, 0.8) ;
+        padding-bottom: 5px;
+    }
+    .footer-img-res{
+        display: block;
+        width: 100%;
+    }
+    .footer-img{
+        display: none;
+    }
+    
+}
